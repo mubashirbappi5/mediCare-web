@@ -1,9 +1,15 @@
-import Image from "next/image";
+import Banner from "@/Components/Banner";
+import OurServices from "@/Components/OurServices";
 
-export default function Home() {
-  return (
-    <div>
-      <h1>this is medicare</h1>
-    </div>
-  );
-}
+
+const Home = () => {
+    return (
+        <div>
+            <Banner/>
+
+            <OurServices/>
+        </div>
+    );
+};
+
+export default Home;
