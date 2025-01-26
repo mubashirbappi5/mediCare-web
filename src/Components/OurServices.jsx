@@ -78,6 +78,8 @@ const OurServices = () => {
             <button className="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold shadow-md hover:bg-gray-100 transition duration-300">
               More Details
             </button>
+        
+
           </div>
         </div>
       </div>
