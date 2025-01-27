@@ -6,7 +6,8 @@ import Image from 'next/image';
 import dentis from '../assets/white-teeth.jpg'
 const OurServices = () => {
     return (
-        <div className="bg-gradient-to-br from-blue-50 to-gray-100 py-16 px-6 ">
+      <div className="bg-gray-200 py-16 px-6 ">
+        <div className=" w-11/12 mx-auto">
         {/* Header Section */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-extrabold text-blue-700 mb-4">Our Services</h1>
@@ -83,7 +84,7 @@ const OurServices = () => {
           </div>
         </div>
       </div>
-      
+      </div>
     );
 };
 

@@ -3,8 +3,8 @@ import bannerimg from "../assets/Doctors-rafiki.png";
 import Image from "next/image";
 const Banner = () => {
   return (
-    <div>
-      <div className="container px-6 bg-gradient-to-br from-blue-50 to-gray-100  py-16 mx-auto">
+    <div className="bg-gradient-to-br from-green-100 to-gray-100 py-16 mx-auto">
+      <div className="container px-6 w-11/12 mx-auto ">
         <div className="items-center lg:flex">
           <div className="w-full lg:w-1/2">
             <div className="lg:max-w-lg">
