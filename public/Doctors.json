@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. Emily Carter",
+      "rating": 4.9,
+      "role": "Cardiologist",
+      "location": "New York, NY",
+      "about": "Dr. Emily Carter is a renowned cardiologist with over 15 years of experience in treating heart-related conditions.",
+      "education": ["MD - Harvard Medical School", "Residency - Mount Sinai Hospital"],
+      "services": ["Cardiac consultation", "Stress test", "Echocardiogram"],
+      "awards": ["Top Doctor Award 2020", "Excellence in Cardiology Award 2018"],
+      "specialize": ["Cardiovascular diseases", "Hypertension", "Arrhythmias"],
+      "work_experience": "15 years",
+      "business_hours": "Monday-Friday: 9 AM - 5 PM, Saturday: 10 AM - 2 PM"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Michael Johnson",
+      "rating": 4.8,
+      "role": "Orthopedic Surgeon",
+      "location": "Los Angeles, CA",
+      "about": "Dr. Michael Johnson specializes in joint replacement and sports injuries, helping patients regain mobility.",
+      "education": ["MD - UCLA School of Medicine", "Fellowship - Stanford Medical Center"],
+      "services": ["Joint replacement surgery", "Arthroscopy", "Sports injury treatment"],
+      "awards": ["Best Orthopedic Surgeon 2021", "Patient Choice Award 2019"],
+      "specialize": ["Knee replacement", "Shoulder injuries", "Sports medicine"],
+      "work_experience": "12 years",
+      "business_hours": "Monday-Friday: 8 AM - 6 PM"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Sarah Ahmed",
+      "rating": 4.7,
+      "role": "Pediatrician",
+      "location": "Chicago, IL",
+      "about": "Dr. Sarah Ahmed has a passion for providing comprehensive care to children from infancy to adolescence.",
+      "education": ["MD - University of Chicago", "Residency - Lurie Children's Hospital"],
+      "services": ["Child wellness checkups", "Vaccinations", "Developmental screenings"],
+      "awards": ["Compassionate Care Award 2020"],
+      "specialize": ["General pediatrics", "Child nutrition", "Developmental disorders"],
+      "work_experience": "10 years",
+      "business_hours": "Monday-Friday: 9 AM - 5 PM, Saturday: 9 AM - 1 PM"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Anil Mehta",
+      "rating": 4.6,
+      "role": "Dermatologist",
+      "location": "Houston, TX",
+      "about": "Dr. Anil Mehta is a board-certified dermatologist known for advanced skin treatments and personalized care.",
+      "education": ["MD - Baylor College of Medicine", "Fellowship - Skin Institute of Houston"],
+      "services": ["Skin cancer screening", "Laser treatments", "Acne management"],
+      "awards": ["Top Dermatologist 2019"],
+      "specialize": ["Skin cancer", "Cosmetic dermatology", "Psoriasis"],
+      "work_experience": "8 years",
+      "business_hours": "Monday-Thursday: 10 AM - 4 PM, Friday: 10 AM - 3 PM"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Rachel Kim",
+      "rating": 4.9,
+      "role": "Neurologist",
+      "location": "Seattle, WA",
+      "about": "Dr. Rachel Kim specializes in treating neurological disorders with a patient-centric approach.",
+      "education": ["MD - University of Washington", "Residency - Mayo Clinic"],
+      "services": ["Neurological exams", "EEG", "Migraine management"],
+      "awards": ["Neurologist of the Year 2022"],
+      "specialize": ["Epilepsy", "Migraines", "Multiple sclerosis"],
+      "work_experience": "14 years",
+      "business_hours": "Monday-Friday: 8 AM - 4 PM"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Liam Peterson",
+      "rating": 4.8,
+      "role": "General Practitioner",
+      "location": "Miami, FL",
+      "about": "Dr. Liam Peterson offers comprehensive primary care and emphasizes preventive health.",
+      "education": ["MD - University of Miami", "Residency - Jackson Memorial Hospital"],
+      "services": ["Annual checkups", "Chronic disease management", "Health screenings"],
+      "awards": ["Excellence in Primary Care 2021"],
+      "specialize": ["Preventive medicine", "Chronic diseases", "Family medicine"],
+      "work_experience": "9 years",
+      "business_hours": "Monday-Friday: 9 AM - 6 PM, Saturday: 10 AM - 2 PM"
+    }
+  ]
+  
