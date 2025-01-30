@@ -81,7 +81,7 @@ const Navber = () => {
               {links }
             </div>
 
-            <div className="flex items-center mt-4 lg:mt-0">
+            <div className="flex items-center mt-4 lg:mt-0 gap-4">
              
 
               <button
@@ -90,10 +90,10 @@ const Navber = () => {
                 aria-label="toggle profile dropdown"
               >
                 <button className='bg-blue-500 p-3 rounded-lg text-white' onClick={() => signIn()}>Sign In</button>
-                <h3 className="mx-2 text-gray-700 dark:text-gray-200 lg:hidden">
-                  Khatab wedaa
-                </h3>
+                
+                
               </button>
+              <Link href='/register' className='bg-blue-500 p-3 rounded-lg text-white'>Sign Up</Link>
             </div>
           </div>
         </div>
