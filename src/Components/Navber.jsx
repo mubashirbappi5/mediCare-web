@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import logo from '../assets/icons8-medical-40.png'
 import Image from 'next/image';
 import Link from 'next/link';
+import { useSession, signIn, signOut } from "next-auth/react"
 const Navber = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -88,14 +89,7 @@ const Navber = () => {
                 className="flex items-center focus:outline-none"
                 aria-label="toggle profile dropdown"
               >
-                <div className="w-8 h-8 overflow-hidden border-2 border-gray-400 rounded-full">
-                  <img
-                    src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
-                    className="object-cover w-full h-full"
-                    alt="avatar"
-                  />
-                </div>
-
+                <button className='bg-blue-500 p-3 rounded-lg text-white' onClick={() => signIn()}>Sign In</button>
                 <h3 className="mx-2 text-gray-700 dark:text-gray-200 lg:hidden">
                   Khatab wedaa
                 </h3>

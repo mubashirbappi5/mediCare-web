@@ -5,7 +5,7 @@ import Doc from './Doc';
 const Doctor = async() => {
     const res = await fetch('https://jsonplaceholder.typicode.com/users');
     const data = await res.json();
-    console.log(data)
+    
     return (
         <div className='w-11/12 mx-auto'>
            <div className='space-y-4'>
