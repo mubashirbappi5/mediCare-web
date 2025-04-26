@@ -9,11 +9,7 @@ const Footer = () => {
         
           <div className="w-full lg:w-2/5 px-6">
             <a href="#" aria-label="Brand Logo">
-              <img
-                className="w-auto h-8"
-                src="https://merakiui.com/images/full-logo.svg"
-                alt="Brand Logo"
-              />
+              Medicare
             </a>
             <p className="mt-4 text-gray-500 dark:text-gray-400 max-w-sm">
               Join 31,000+ others and never miss out on new tips, tutorials, and more.
